@@ -1,57 +1,59 @@
 # TreinoGit
->git
-1-Crie um repositório em seu Github chamado TreinoGit;
 
-2-Dentro dele crie 3 arquivos:
+__1. Crie um repositório em seu Github chamado TreinoGit;__
+>git clone https://github.com/keitepassos/TreinoGit.git
 
-a-Um arquivo .html
+2. Dentro dele crie 3 arquivos:
 
-b-Um arquivo .css
+*Um arquivo .html
 
-c-Um arquivo .js
+*Um arquivo .css
 
-3-Crie uma página simples no html, com um css simples e um  js básico;
+*Um arquivo .js
 
-4-Adicione esses arquivos e dê um commit um por um no repositório, documentando o que você fez;
+3. Crie uma página simples no html, com um css simples e um  js básico;
+
+4. Adicione esses arquivos e dê um commit um por um no repositório, documentando o que você fez;
 >git add index.html
 
->git commit - m "up arquivo .html"
+>git commit - m "commit html"
 
 >git add script.js
 
->git commit - m "up arquivo .js"
+>git commit - m "commit js"
 
 >git add estilo.css
 
->git commit - m "up arquivo .css"
+>git commit - m "commit css"
 
-5-Suba o projeto no repositório remoto;
->git push origin main
+5. Suba o projeto no repositório remoto;
+>git push origin master
 
-6-Crie uma branch teste e, dentro dela, altere os 3 arquivos criados;
+6. Crie uma branch teste e, dentro dela, altere os 3 arquivos criados;
 >git branch -b teste
 
-5-Faça o passo 4 novamente e suba sua branch teste no repositório remoto;
+7. Faça o passo 4 novamente e suba sua branch teste no repositório remoto;
+~~~
 >git add index.html
 
->git commit - m "up branch teste arquivo .html"
+>git commit - m "commit branch teste arquivo html"
 
 >git add script.js
 
->git commit - m "up branch teste arquivo .js"
+>git commit - m "commit branch teste arquivo' js"
 
 >git add estilo.css
->git commit - m "up branch teste arquivo .css"
+>git commit - m "commit branch teste arquivo css"
 
 >git push origin teste
+~~~
+8. Suba o projeto no repositório remoto;
+>git push origin master
 
-5-Suba o projeto no repositório remoto;
->git push origin main
 
+9. Por fim, dê um merge com a branch master e suba no respositório;
 
-8-Por fim, dê um merge com a branch master e suba no respositório;
+>git checkout master
 
->git checkout main
-
->git push origin main
+>git push origin master
 

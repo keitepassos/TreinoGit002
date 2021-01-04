@@ -15,15 +15,15 @@ c-Um arquivo .js
 4-Adicione esses arquivos e dê um commit um por um no repositório, documentando o que você fez;
 >git add index.html
 
->git commit - m "up arquivo .html"
+>git commit - m "commit html"
 
 >git add script.js
 
->git commit - m "up arquivo .js"
+>git commit - m "commit js"
 
 >git add estilo.css
 
->git commit - m "up arquivo .css"
+>git commit - m "commit css"
 
 5-Suba o projeto no repositório remoto;
 >git push origin main

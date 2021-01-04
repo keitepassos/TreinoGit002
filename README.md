@@ -54,13 +54,7 @@ git commit - m "commit branch teste arquivo css"
 
 git push origin teste
 ~~~
-8. Suba o projeto no repositório remoto;
-~~~
-git push origin master
-~~~
-
-
-9. Por fim, dê um merge com a branch master e suba no respositório;
+8. Por fim, dê um merge com a branch master e suba no respositório;
 ~~~
 git checkout master
 

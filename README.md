@@ -33,7 +33,7 @@ git push origin master
 
 6. Crie uma branch teste e, dentro dela, altere os 3 arquivos criados;
 ~~~
-git branch -b teste
+git checkout -b teste
 ~~~
 
 
